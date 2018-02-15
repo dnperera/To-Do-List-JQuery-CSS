@@ -45,6 +45,7 @@ li {
 	height: 40px;
 	line-height: 40px;
 	color: #666;
+	cursor: pointer;
 }
 
 li:nth-child(2n) {
@@ -69,15 +70,19 @@ li:hover span {
 }
 
 
-
 #container {
 	width :400px;
 	margin:100px auto;
 	background-color: #f7f7f7;
-	box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+	box-shadow: 10px 10px 3px  rgba(70, 60, 0, .5);
 }
 
 .completed {
 	color:#605F62;
 	text-decoration: line-through;
+}
+
+.fa-plus {
+	float: right;
+	cursor: pointer;
 }
